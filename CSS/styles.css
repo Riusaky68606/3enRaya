@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Press Start 2P";
+}
+
+
+header {
+    background-color: darkgray;
+}
+
+
+#encaje {
+    float: left;
+    width: 100%;
+}
+
+
+header h1 {
+    font-size: 3em;
+    margin-right: 200px;
+    float: right;
+    text-align: center;
+}
+
+header h2 {
+    margin: 35px;
+    font-size: 2.5em;
+}
+
+#tablero {
+    margin: auto;
+    width: 750px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tablero>button {
+    width: 250px;
+    ;
+    height: 250px;
+    max-width: 33.33%;
+    font-size: 10em;
+}
+
+#textoVictoria {
+    visibility: hidden;
+    color: chartreuse;
+}
